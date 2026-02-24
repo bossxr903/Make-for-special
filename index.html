@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video</title>
+
+<style>
+html,body{
+margin:0;
+padding:0;
+background:black;
+height:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.video-wrapper{
+width:100%;
+max-width:100vw;
+aspect-ratio:16/9;
+}
+
+video{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+</style>
+
+</head>
+<body>
+
+<div class="video-wrapper">
+  <video autoplay muted playsinline>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+</div>
+
+</body>
+</html>
